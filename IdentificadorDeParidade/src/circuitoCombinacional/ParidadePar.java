@@ -3,6 +3,10 @@ package circuitoCombinacional;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/**
+ * @author ManoMax 
+ */
+
 public class ParidadePar {
 
 	private static int verificadorDeParidade(LinkedList<Integer> bits) {
@@ -70,9 +74,9 @@ public class ParidadePar {
 				if (verificadorDeParidade(bits) == 1) {
 		        	System.out.println("Erro de Paridade.");
 					bits = geradorDeParidade(bits);
-					System.out.println("Para corrigir, a sequencia de bits ficar·: " + bits);
+					System.out.println("Para corrigir, a sequencia de bits ficar√°: " + bits);
 				} else 
-		        	System.out.println("Essa sequencia de bits n„o possui erro de Paridade.");
+		        	System.out.println("Essa sequencia de bits n√£o possui erro de Paridade.");
 				bitsStr = "";
 			} else {
 				System.out.println("Entrada Invalida. Por favor, digite uma sequencia de 0 ou 1.");
